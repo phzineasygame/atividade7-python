@@ -1,0 +1,26 @@
+notas = []
+nota = float(input("digite a primeira nota da escola de samba"))
+print(nota)
+nota = float(input("digite a segunda nota da escola de samba"))
+print(nota)
+nota = float(input("digite a terceira nota da escola de samba"))
+print(nota)
+nota = float(input("digite a quarta nota da escola de samba"))
+print(nota)
+nota = float(input("digite a quinta nota da escola de samba"))
+print(nota)
+notas.append(10)
+notas.append(9.8)
+notas.append(9.9)
+notas.append(10)
+notas.append(10)
+
+maior_numero = max(notas)
+menor_numero = min(notas)
+
+notas.remove(maior_numero)
+notas.remove(menor_numero)
+print(notas)
+
+media = sum(notas) / len(notas)
+print(media)
